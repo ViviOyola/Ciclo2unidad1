@@ -1,8 +1,10 @@
-plublic class junio29 {
+import java.util.Scanner;
+
+Plublic class junio29 {
     public static void main(String[] args) {
-        scanner scanner = new scanner (System.in);
+        Scanner scanner = new Scanner (System.in);
         System.out.println("Dame tu nombre");
-        String nombre = scanner.nextline();
+        String nombre = scanner.nextLine();
         System.out.println("Hola" + nombre);
     } 
 

@@ -1,3 +1,5 @@
+package src;
+
 import java.util.Scanner;
 
 public class ejercicio2 {
@@ -11,5 +13,5 @@ public class ejercicio2 {
 public static String saludar (String nombre){
     return "Hola " + nombre;
 }
-
+System.out.println(saludar(nombre + "Hola"));
 }
